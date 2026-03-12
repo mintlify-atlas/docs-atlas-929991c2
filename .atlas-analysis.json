@@ -1,0 +1,191 @@
+{
+  "projectType": "saas",
+  "projectName": "Fleetbase",
+  "projectDescription": "Modular logistics and supply chain operating system for streamlined management and operational control",
+  "theme": "aspen",
+  "primaryColor": "#4594ec",
+  "lightColor": "#99c4f4",
+  "darkColor": null,
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "features",
+              "use-cases"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "pages": [
+              "getting-started/installation",
+              "getting-started/quickstart",
+              "getting-started/configuration",
+              "getting-started/first-steps"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/order-management",
+              "features/fleet-management",
+              "features/service-zones",
+              "features/route-optimization",
+              "features/live-tracking",
+              "features/dashboards"
+            ]
+          },
+          {
+            "group": "Extensions",
+            "pages": [
+              "extensions/overview",
+              "extensions/installing-extensions",
+              "extensions/available-extensions",
+              "extensions/building-extensions",
+              "extensions/publishing-extensions"
+            ]
+          },
+          {
+            "group": "Mobile Apps",
+            "pages": [
+              "mobile-apps/overview",
+              "mobile-apps/storefront-app",
+              "mobile-apps/navigator-app",
+              "mobile-apps/customization"
+            ]
+          },
+          {
+            "group": "Integration",
+            "pages": [
+              "integration/webhooks",
+              "integration/websockets",
+              "integration/telematics",
+              "integration/third-party-services"
+            ]
+          },
+          {
+            "group": "Administration",
+            "pages": [
+              "administration/organizations",
+              "administration/users-and-roles",
+              "administration/identity-access-management",
+              "administration/branding",
+              "administration/notifications"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Getting Started",
+            "pages": [
+              "api/overview",
+              "api/authentication",
+              "api/rate-limits",
+              "api/errors"
+            ]
+          },
+          {
+            "group": "Resources",
+            "pages": [
+              "api/orders",
+              "api/drivers",
+              "api/vehicles",
+              "api/places",
+              "api/routes",
+              "api/tracking"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Deployment",
+        "groups": [
+          {
+            "group": "Deployment Options",
+            "pages": [
+              "deployment/overview",
+              "deployment/docker",
+              "deployment/on-premise",
+              "deployment/cloud",
+              "deployment/cloud-providers"
+            ]
+          },
+          {
+            "group": "Operations",
+            "pages": [
+              "operations/configuration",
+              "operations/security",
+              "operations/monitoring",
+              "operations/scaling",
+              "operations/backup-restore",
+              "operations/troubleshooting"
+            ]
+          },
+          {
+            "group": "CLI",
+            "pages": [
+              "cli/installation",
+              "cli/commands",
+              "cli/authentication"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "Resources",
+        "groups": [
+          {
+            "group": "Community",
+            "pages": [
+              "resources/contributing",
+              "resources/roadmap",
+              "resources/changelog",
+              "resources/support"
+            ]
+          },
+          {
+            "group": "Developer Resources",
+            "pages": [
+              "developers/architecture",
+              "developers/extension-development",
+              "developers/api-examples",
+              "developers/testing"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Order Management with Kanban boards and workflow configuration",
+    "Fleet Management with live map tracking",
+    "Service Zones and geographic area management",
+    "Route Optimization",
+    "Real-time tracking with WebSockets",
+    "Modular extension system",
+    "RESTful API and webhooks",
+    "Identity and Access Management (IAM)",
+    "Multi-tenant organizations",
+    "Mobile apps for drivers and customers",
+    "Telematics and hardware integration",
+    "Customizable dashboards and reporting"
+  ],
+  "publicApiSurface": [
+    "RESTful API endpoints for orders, drivers, vehicles, places, routes",
+    "WebSocket connections for real-time tracking",
+    "Webhook events for order status changes",
+    "CLI commands: install-fleetbase, install, uninstall, search, publish",
+    "Extension API for building custom modules",
+    "Authentication API with JWT tokens",
+    "Organization and user management endpoints",
+    "Tracking and telematics endpoints",
+    "Service zone configuration API"
+  ]
+}
